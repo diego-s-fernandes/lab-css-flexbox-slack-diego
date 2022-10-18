@@ -1,3 +1,99 @@
+* {
+        margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #540B51;
+    display: flex;
+    margin:auto;
+    text-align: center;
+    
+}
+
+.slackscreen{
+    margin:auto;
+    display: flex;
+
+}
+
+header h1{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-size: 3em;
+    color: whitesmoke;
+    
+}
+
+.buttonseach {
+display: flex;
+flex-direction: column;
+align-items: left;
+
+
+}
+
+
+nav{
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  background: #540B51
+}
+
+.nav-menu {
+margin:auto;
+display: flex;
+flex-direction: row;
+align-items: right;
+justify-content:space-between;
+}
+
+.btnav {
+    color: whitesmoke;
+}
+
+main{
+    background-color:#F4F3F4;
+    display: flex;
+    margin:auto;
+    text-align: center;
+}
+
+main h2{
+    display: flex;
+    margin:auto;
+    text-align: center;
+}
+
+main p{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0.9em;;
+}
+
+
+
+
+footer {
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+    margin-left: 90px;
+    background: whitesmoke;
+    
+    
+}
+
+@media screen {
+    
+}
 /*
 background purple: #540B51
 background ivory: #F3EAE2
@@ -8,3 +104,6 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
